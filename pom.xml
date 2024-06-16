@@ -8,6 +8,12 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>nls</name>
     <description>nls</description>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.0</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
     <properties>
         <java.version>17</java.version>
     </properties>
